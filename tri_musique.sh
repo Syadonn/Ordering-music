@@ -42,7 +42,7 @@ while [[ $chdone -ne true ]]; do
 
 		break;;
 
-        [Nn]* ) chdone=true && ./conf.sh;;
+        [Nn]* ) chdone=true && ./create_conf.sh;;
         * ) echo "Please answer yes or no.";;
     esac
 done
